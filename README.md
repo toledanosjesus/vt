@@ -3,7 +3,7 @@
 This script will convert a list of hashes into MD5, SHA1 and SHA256 using VirusTotal service V3.
 It will read line by line an input file which is named hashes.txt by default. Then, it will save the output into a CSV file called converted_hashes.csv.
 
-You can change that under the global variables list:
+You can change that under the global variable list:
 
 HASH_LIST = "hashes.txt"
 CONVERTED_HASH_LIST = "converted_hashes.csv"
